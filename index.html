@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rahul Verma | Data Analyst</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      scroll-behavior: smooth;
+    }
+    .hero {
+    background: linear-gradient(135deg, #4facfe, #00f2fe);
+    color: #ffffff;
+    padding: 120px 0;
+    }
+
+    .section-title {
+      font-weight: 600;
+      margin-bottom: 40px;
+    }
+    .badge-skill {
+  background: linear-gradient(135deg, #fff176, #ffd54f);
+  color: #795548; /* dark brown text for contrast */
+  margin: 6px;
+  padding: 10px 16px;
+  font-size: 0.9rem;
+  border-radius: 30px;
+  font-weight: 500;
+  display: inline-block;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+}
+#education {
+  background: #f5f0e1;
+  padding: 60px 0;
+}
+
+#education ul li {
+  background: #fff3d6; /* soft warm cream / light yellow box */
+  margin: 8px 0;
+  padding: 12px 16px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  font-weight: 500;
+  color: #5a4630; /* dark text for contrast */
+  transition: all 0.3s ease;
+}
+
+#education ul li:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.12);
+}
+
+
+.badge-skill:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+.project-card {
+  transition: transform 0.3s, box-shadow 0.3s;
+  border: none; /* clean look */
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+#projects {
+  background: #dfffd6; /* soft light green */
+  padding: 60px 0;
+}
+    .project-card {
+      transition: transform 0.3s;
+    }
+    .project-card:hover {
+      transform: translateY(-5px);
+    }
+    footer {
+      background-color: #212529;
+      color: white;
+      padding: 30px 0;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="#">Rahul Verma</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero text-center">
+  <div class="container">
+    <h1 class="display-5 fw-bold">Rahul Verma</h1>
+    <p class="lead">Data Analyst | Python | SQL | Power BI | Excel</p>
+    <p class="mt-3">Turning raw data into meaningful business insights</p>
+    <a href="#projects" class="btn btn-light btn-lg mt-3 me-2">View Projects</a>
+    <a href="#" class="btn btn-outline-light btn-lg mt-3" download>Download Resume</a>
+  </div>
+</section>
+
+<!-- About -->
+<section id="about" class="py-5">
+  <div class="container">
+    <h2 class="section-title text-center">About Me</h2>
+    <p class="text-center col-md-10 mx-auto">
+      Data Analyst with hands-on experience in SQL, Excel, Power BI and Python through multiple real-world business analytics projects.
+      Strong background in data cleaning, exploratory data analysis, dashboarding and extracting actionable insights.
+      Previously worked as a freelance technical consultant, bringing strong problem-solving and data-handling skills.
+    </p>
+  </div>
+</section>
+
+<!-- Skills -->
+<section id="skills" class="py-5 bg-light">
+  <div class="container">
+    <h2 class="section-title text-center">Skills</h2>
+    <div class="text-center">
+      <span class="badge badge-skill">Python</span>
+      <span class="badge badge-skill">SQL</span>
+      <span class="badge badge-skill">Power BI</span>
+      <span class="badge badge-skill">Excel</span>
+      <span class="badge badge-skill">Pandas</span>
+      <span class="badge badge-skill">NumPy</span>
+      <span class="badge badge-skill">Matplotlib</span>
+      <span class="badge badge-skill">Seaborn</span>
+      <span class="badge badge-skill">EDA</span>
+      <span class="badge badge-skill">Data Cleaning</span>
+      <span class="badge badge-skill">Dashboarding</span>
+      <span class="badge badge-skill">Statistics</span>
+      <span class="badge badge-skill">GitHub</span>
+    </div>
+  </div>
+</section>
+
+<!-- Projects -->
+<section id="projects" class="py-5">
+  <div class="container">
+    <h2 class="section-title text-center">Projects</h2>
+    <div class="row g-4">
+
+      <div class="col-md-6">
+        <div class="card project-card h-100">
+          <div class="card-body">
+            <h5 class="card-title">E-commerce Data Analysis (SQL)</h5>
+            <p class="card-text">Analyzed 50K+ records using complex SQL joins, identified sales trends and optimized queries for better performance.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="card project-card h-100">
+          <div class="card-body">
+            <h5 class="card-title">Pizza Sales Dashboard (SQL & Power BI)</h5>
+            <p class="card-text">Built interactive Power BI dashboards to analyze revenue trends and top-selling pizzas.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="card project-card h-100">
+          <div class="card-body">
+            <h5 class="card-title">HR Analytics Dashboard (Power BI)</h5>
+            <p class="card-text">Analyzed employee attrition across age, salary and job roles using Power BI.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="card project-card h-100">
+          <div class="card-body">
+            <h5 class="card-title">Netflix Data Analysis (Python)</h5>
+            <p class="card-text">Performed EDA, hypothesis testing and churn analysis using Pandas, NumPy and visualization libraries.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Education & Certifications -->
+<section id="education" class="py-5 bg-light">
+  <div class="container">
+    <h2 class="section-title text-center">Education & Certifications</h2>
+    <div class="row">
+      <div class="col-md-6">
+        <h5>Degrees</h5>
+        <ul>
+          <li>B.Com – CSJM University</li>
+          <li>MBA (Finance)</li>
+        </ul>
+      </div>
+      <div class="col-md-6">
+        <h5>Certifications</h5>
+        <ul>
+          <li>Python for Data Analysis – Great Learning</li>
+          <li>Data Analyst – Simplilearn</li>
+          <li>Data Analyst Skillpath – Kaggle</li>
+          <li>PHP with MySQL – Udemy</li>
+          <li>Frontend Development Libraries – FreeCodeCamp</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Experience -->
+<section id="experience" class="py-5 bg-light">
+  <div class="container">
+    <h2 class="section-title text-center">Experience</h2>
+    <div class="col-md-10 mx-auto">
+      <h5>Freelance Technical Consultant (2021–2024)</h5>
+      <p>Worked with databases, backend logic, optimized SQL queries and handled real-world datasets.</p>
+
+      <h5 class="mt-4">Computer Instructor (2016–2020)</h5>
+      <p>Taught MS Excel and computer fundamentals with focus on data handling and reporting.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Contact -->
+<section id="contact" class="py-5">
+  <div class="container text-center">
+    <h2 class="section-title">Contact</h2>
+    <p>Email: <strong>thebestrahul3@gmail.com</strong></p>
+    <p>Phone: <strong>8400605733</strong></p>
+    <p>
+      <a href="https://www.linkedin.com/in/rahul-verma-2521732247" target="_blank">LinkedIn</a> |
+      <a href="https://github.com/rahul9-max" target="_blank">GitHub</a>
+    </p>
+  </div>
+</section>
+
+<footer class="text-center">
+  <p>© 2026 Rahul Verma | Data Analyst</p>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
